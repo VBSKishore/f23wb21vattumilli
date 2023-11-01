@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var ApartmentRouter = require('./routes/Apartment');
 var boardRouter = require('./routes/board');
-var chooseRouter = require('/router/choose');
+var chooseRouter = require('./routes/choose'); // Fixed the path here
 
 var app = express();
 
